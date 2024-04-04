@@ -2,7 +2,25 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-    "title":  "Unite Sunmit", 
-    "details": "Um evento para quem é apaixonado por programação",
-    "maximumAttendees": 100
+    "title":  "Novo evento 2", 
+    "details": null,
+    "maximumAttendees": 1
 }
+
+###
+
+POST http://localhost:3333/events/d8d7fe7f-dd62-4932-b879-7545e1d79faa/attendees
+Content-Type: application/json
+
+{
+    "name": "Vinicius Bonifacio Pereira",
+    "email": "mrbonifacio@gmail.com"
+}
+
+###
+
+GET http://localhost:3333/events/d8d7fe7f-dd62-4932-b879-7545e1d79faa
+
+###
+
+GET http://localhost:3333/attendees/1/badge

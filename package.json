@@ -13,6 +13,7 @@
     "@prisma/client": "^5.12.0",
     "esbuild": "^0.19.12",
     "fastify": "^4.26.2",
+    "fastify-type-provider-zod": "^1.1.9",
     "get-tsconfig": "^4.7.3",
     "resolve-pkg-maps": "^1.0.0",
     "undici-types": "^5.26.5",
